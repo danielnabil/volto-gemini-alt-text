@@ -7,7 +7,7 @@ class describeImage {
   constructor() {
     this.vision = new ChatGoogleGenerativeAI({
       apiKey:  process.env.RAZZLE_GEMINI_API_KEY,
-      modelName: "gemini-pro-vision",
+      modelName: "gemini-1.5-flash",
       maxOutputTokens: 2048,
     });
   }
